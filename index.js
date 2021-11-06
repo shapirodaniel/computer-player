@@ -32,7 +32,6 @@ const clickHandler = (e) => {
     e.target.classList.contains("p1") ||
     e.target.classList.contains("p2")
   ) {
-    failedMove = true;
     return;
   }
 
