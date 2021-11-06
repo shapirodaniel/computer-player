@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #board {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90px;
+        height: 90px;
+      }
+      .square {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+      }
+      .square.p1 {
+        background-color: red;
+      }
+      .square.p2 {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="board"></div>
+  </body>
+</html>
